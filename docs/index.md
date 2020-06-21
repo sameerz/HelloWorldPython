@@ -1,6 +1,9 @@
 ---
 layout: default
-title: About
+title: Home
+nav_order: 1
+permalink: /
+description: This site serves as a collection of documentation about the RAPIDS accelerator for Apache Spark
 ---
 As data scientists shift from using traditional analytics to leveraging AI applications that better model complex market demands, traditional CPU-based processing can no longer keep up without compromising either speed or cost. The growing adoption of AI in analytics has created the need for a new framework to process data quickly and cost efficiently with GPUs.
 
