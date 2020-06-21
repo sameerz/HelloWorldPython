@@ -67,7 +67,7 @@ Name | Description | Default Value
 <a name="sql.replaceSortMergeJoin.enabled"></a>spark.rapids.sql.replaceSortMergeJoin.enabled|Allow replacing sortMergeJoin with HashJoin|true
 <a name="sql.shuffle.spillThreads"></a>spark.rapids.sql.shuffle.spillThreads|Number of threads used to spill shuffle data to disk in the background.|6
 <a name="sql.variableFloatAgg.enabled"></a>spark.rapids.sql.variableFloatAgg.enabled|Spark assumes that all operations produce the exact same result each time. This is not true for some floating point aggregations, which can produce slightly different results on the GPU as the aggregation is done in parallel.  This can enable those operations if you know the query is only computing it once.|false
-
+<!--
 ## Fine Tuning
 _The RAPIDS Accelerator for Apache Spark_ can be further configured to enable or disable
 specific expressions and to control what parts of the query execute using the GPU or
@@ -265,3 +265,4 @@ Name | Description | Default Value | Incompatibilities
   --conf spark.executorEnv.LIBCUDF_KERNEL_CACHE_PATH="/tmp/cudf-$USER"
   ```
 
+-->
