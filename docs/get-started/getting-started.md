@@ -37,7 +37,7 @@ to read the deployment method sections before doing any installations.
 
 ## Install Spark
 To install Apache Spark please follow the official 
-[instructions](https://spark.apache.org/docs/latest/#launching-on-a-cluster). Please note that only
+[instructions](https://spark.apache.org/jocs/latest/#launching-on-a-cluster). Please note that only
 scala version 2.12 is currently supported by the accelerator. 
 
 ## Download the RAPIDS jars
@@ -373,7 +373,7 @@ operation “count at ...”, you should see the graph of Spark Execs and some o
 the label Gpu...  For instance, in the screenshot below you will see `GpuRowToColumn`, `GpuFilter`,
 and `GpuColumnarExchange`.  Those correspond to operations that run on the GPU.
 
-![Join Example on Spark SQL UI](/docs/img/join-sql-ui-example.png)
+![Join Example on Spark SQL UI](../img/join-sql-ui-example.png)
 
 ## Advanced Configuration
 
