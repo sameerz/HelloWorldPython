@@ -4,4 +4,11 @@ aux_links:
   "Spark Rapids Plugin on Github":
     - "//github.com/nvidia/spark-rapids"
 
-color_scheme: foo
+plugins:
+  - jekyll-optional-front-matter # GitHub Pages
+  - jekyll-default-layout        # GitHub Pages
+  - jekyll-titles-from-headings  # GitHub Pages
+  - jekyll-readme-index          # GitHub Pages
+  - jekyll-relative-links        # GitHub Pages
+
+color_scheme: emerald
