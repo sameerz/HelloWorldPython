@@ -1,3 +1,8 @@
+---
+layout: page
+title: Benchmarks
+nav_exclude: true
+---
 # Benchmarks
 
 The `integration_test` module contains benchmarks derived from the 
@@ -164,10 +169,9 @@ before sharing these JSON files. Environment variables with names containing the
 
 ## Automating Benchmarks
 
-For convenience, the
-[benchmark.py](https://github.com/NVIDIA/spark-rapids/blob/branch-0.3/integration_tests/src/main/python/benchmark.py)
-script is provided, allowing benchmarks to be run in an automated way with multiple
-configurations. Example usage is provided in the documentation within the script.
+For convenience, the [benchmark.py](https://github.com/NVIDIA/spark-rapids/blob/main/integration_tests/src/main/python/benchmark.py) script is
+provided, allowing benchmarks to be run in an automated way with multiple configurations. Example
+usage is provided in the documentation within the script.
 
 ## Verifying Results
 
